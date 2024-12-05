@@ -7,8 +7,8 @@
 package net.royaltechnica.launcher.creator.dialog;
 
 import com.google.common.base.Strings;
-import net.jidesoft.swing.SearchableUtils;
-import net.jidesoft.swing.TableSearchable;
+import com.jidesoft.swing.SearchableUtils;
+import com.jidesoft.swing.TableSearchable;
 import net.royaltechnica.launcher.builder.BuilderConfig;
 import net.royaltechnica.launcher.builder.FeaturePattern;
 import net.royaltechnica.launcher.builder.FnPatternList;

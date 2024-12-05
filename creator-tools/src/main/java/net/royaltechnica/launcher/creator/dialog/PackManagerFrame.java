@@ -6,8 +6,8 @@
 
 package net.royaltechnica.launcher.creator.dialog;
 
-import net.jidesoft.swing.SearchableUtils;
-import net.jidesoft.swing.TableSearchable;
+import com.jidesoft.swing.SearchableUtils;
+import com.jidesoft.swing.TableSearchable;
 import net.royaltechnica.launcher.creator.Creator;
 import net.royaltechnica.launcher.swing.DefaultTable;
 import net.royaltechnica.launcher.swing.SwingHelper;
