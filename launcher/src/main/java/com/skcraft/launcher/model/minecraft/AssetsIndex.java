@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.minecraft;
+package net.royaltechnica.launcher.model.minecraft;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.skcraft.launcher.AssetsRoot;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.royaltechnica.launcher.AssetsRoot;
 import lombok.Data;
 import lombok.NonNull;
 

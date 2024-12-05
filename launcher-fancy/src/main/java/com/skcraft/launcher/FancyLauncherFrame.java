@@ -4,11 +4,11 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
-import com.skcraft.launcher.dialog.LauncherFrame;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.swing.WebpagePanel;
+import net.royaltechnica.launcher.dialog.LauncherFrame;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.swing.WebpagePanel;
 import lombok.NonNull;
 
 import javax.swing.*;

@@ -1,12 +1,12 @@
-package com.skcraft.launcher.model.minecraft;
+package net.royaltechnica.launcher.model.minecraft;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.skcraft.launcher.model.minecraft.mapper.MinecraftArgumentsDeserializer;
-import com.skcraft.launcher.model.minecraft.mapper.MinecraftArgumentsSerializer;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonProperty;
+import net.fasterxml.jackson.annotation.JsonTypeInfo;
+import net.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import net.fasterxml.jackson.databind.annotation.JsonSerialize;
+import net.royaltechnica.launcher.model.minecraft.mapper.MinecraftArgumentsDeserializer;
+import net.royaltechnica.launcher.model.minecraft.mapper.MinecraftArgumentsSerializer;
 import lombok.Data;
 
 import java.util.ArrayList;

@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.install;
+package net.royaltechnica.launcher.install;
 
 import com.google.common.io.Files;
-import com.skcraft.launcher.Launcher;
+import net.royaltechnica.launcher.Launcher;
 import lombok.NonNull;
 import lombok.extern.java.Log;
 
@@ -15,7 +15,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 @Log
 public class FileCopy implements InstallTask {

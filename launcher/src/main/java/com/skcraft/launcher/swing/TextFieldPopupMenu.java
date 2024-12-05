@@ -4,9 +4,9 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.swing;
+package net.royaltechnica.launcher.swing;
 
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.util.SharedLocale;
 
 import javax.swing.*;
 import javax.swing.text.JTextComponent;

@@ -4,23 +4,23 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.update;
+package net.royaltechnica.launcher.update;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.skcraft.concurrency.DefaultProgress;
-import com.skcraft.concurrency.ProgressFilter;
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.Instance;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.LauncherException;
-import com.skcraft.launcher.install.Installer;
-import com.skcraft.launcher.model.minecraft.ReleaseList;
-import com.skcraft.launcher.model.minecraft.Version;
-import com.skcraft.launcher.model.minecraft.VersionManifest;
-import com.skcraft.launcher.model.modpack.Manifest;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.util.HttpRequest;
-import com.skcraft.launcher.util.SharedLocale;
+import net.fasterxml.jackson.databind.ObjectMapper;
+import net.royaltechnica.concurrency.DefaultProgress;
+import net.royaltechnica.concurrency.ProgressFilter;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.Instance;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.LauncherException;
+import net.royaltechnica.launcher.install.Installer;
+import net.royaltechnica.launcher.model.minecraft.ReleaseList;
+import net.royaltechnica.launcher.model.minecraft.Version;
+import net.royaltechnica.launcher.model.minecraft.VersionManifest;
+import net.royaltechnica.launcher.model.modpack.Manifest;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
@@ -35,7 +35,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.util.HttpRequest.url;
+import static net.royaltechnica.launcher.util.HttpRequest.url;
 
 @Log
 public class Updater extends BaseUpdater implements Callable<Instance>, ProgressObservable {

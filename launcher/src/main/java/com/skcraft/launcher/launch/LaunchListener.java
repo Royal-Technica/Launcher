@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.launch;
+package net.royaltechnica.launcher.launch;
 
 public interface LaunchListener {
 

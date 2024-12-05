@@ -1,18 +1,18 @@
-package com.skcraft.launcher.auth;
+package net.royaltechnica.launcher.auth;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.databind.PropertyNamingStrategies;
-import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import com.skcraft.launcher.auth.microsoft.MicrosoftWebAuthorizer;
-import com.skcraft.launcher.auth.microsoft.MinecraftServicesAuthorizer;
-import com.skcraft.launcher.auth.microsoft.OauthResult;
-import com.skcraft.launcher.auth.microsoft.XboxTokenAuthorizer;
-import com.skcraft.launcher.auth.microsoft.model.McAuthResponse;
-import com.skcraft.launcher.auth.microsoft.model.McProfileResponse;
-import com.skcraft.launcher.auth.microsoft.model.TokenResponse;
-import com.skcraft.launcher.auth.microsoft.model.XboxAuthorization;
-import com.skcraft.launcher.auth.skin.MinecraftSkinService;
-import com.skcraft.launcher.util.HttpRequest;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.databind.PropertyNamingStrategies;
+import net.fasterxml.jackson.databind.annotation.JsonNaming;
+import net.royaltechnica.launcher.auth.microsoft.MicrosoftWebAuthorizer;
+import net.royaltechnica.launcher.auth.microsoft.MinecraftServicesAuthorizer;
+import net.royaltechnica.launcher.auth.microsoft.OauthResult;
+import net.royaltechnica.launcher.auth.microsoft.XboxTokenAuthorizer;
+import net.royaltechnica.launcher.auth.microsoft.model.McAuthResponse;
+import net.royaltechnica.launcher.auth.microsoft.model.McProfileResponse;
+import net.royaltechnica.launcher.auth.microsoft.model.TokenResponse;
+import net.royaltechnica.launcher.auth.microsoft.model.XboxAuthorization;
+import net.royaltechnica.launcher.auth.skin.MinecraftSkinService;
+import net.royaltechnica.launcher.util.HttpRequest;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
@@ -22,7 +22,7 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.function.Consumer;
 
-import static com.skcraft.launcher.util.HttpRequest.url;
+import static net.royaltechnica.launcher.util.HttpRequest.url;
 
 @RequiredArgsConstructor
 public class MicrosoftLoginService implements LoginService {

@@ -5,7 +5,7 @@
  */
 /*      $OpenBSD: fnmatch.c,v 1.13 2006/03/31 05:34:14 deraadt Exp $        */
 
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
 import java.util.EnumSet;
 

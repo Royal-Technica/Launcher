@@ -1,18 +1,18 @@
-package com.skcraft.launcher.dialog;
+package net.royaltechnica.launcher.dialog;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
-import com.skcraft.concurrency.ObservableFuture;
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.concurrency.SettableProgress;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.auth.*;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.swing.LinedBoxPanel;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.util.SharedLocale;
-import com.skcraft.launcher.util.SwingExecutor;
+import net.royaltechnica.concurrency.ObservableFuture;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.concurrency.SettableProgress;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.auth.*;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.swing.LinedBoxPanel;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.util.SwingExecutor;
 import lombok.RequiredArgsConstructor;
 
 import javax.swing.*;

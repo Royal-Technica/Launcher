@@ -1,4 +1,4 @@
-package com.skcraft.launcher.auth.microsoft;
+package net.royaltechnica.launcher.auth.microsoft;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

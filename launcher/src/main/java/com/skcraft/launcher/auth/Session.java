@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.auth;
+package net.royaltechnica.launcher.auth;
 
 import java.util.Map;
 

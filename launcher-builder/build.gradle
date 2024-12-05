@@ -6,7 +6,7 @@ plugins {
 }
 
 application {
-    mainClassName = "com.skcraft.launcher.builder.PackageBuilder"
+    mainClassName = "net.royaltechnica.launcher.builder.PackageBuilder"
 }
 
 dependencies {

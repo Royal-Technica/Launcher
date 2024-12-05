@@ -1,11 +1,11 @@
-package com.skcraft.launcher.model.loader;
+package net.royaltechnica.launcher.model.loader;
 
 import com.google.common.base.Function;
-import com.skcraft.launcher.model.minecraft.Library;
-import com.skcraft.launcher.model.minecraft.Side;
-import com.skcraft.launcher.model.modpack.DownloadableFile;
-import com.skcraft.launcher.model.modpack.Manifest;
-import com.skcraft.launcher.util.Environment;
+import net.royaltechnica.launcher.model.minecraft.Library;
+import net.royaltechnica.launcher.model.minecraft.Side;
+import net.royaltechnica.launcher.model.modpack.DownloadableFile;
+import net.royaltechnica.launcher.model.modpack.Manifest;
+import net.royaltechnica.launcher.util.Environment;
 import lombok.RequiredArgsConstructor;
 
 import java.io.File;

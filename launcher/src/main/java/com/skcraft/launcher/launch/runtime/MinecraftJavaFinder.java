@@ -1,7 +1,7 @@
-package com.skcraft.launcher.launch.runtime;
+package net.royaltechnica.launcher.launch.runtime;
 
-import com.skcraft.launcher.util.Environment;
-import com.skcraft.launcher.util.Platform;
+import net.royaltechnica.launcher.util.Environment;
+import net.royaltechnica.launcher.util.Platform;
 
 import java.io.File;
 import java.util.ArrayList;

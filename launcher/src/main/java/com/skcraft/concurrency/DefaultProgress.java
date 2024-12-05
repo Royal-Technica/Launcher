@@ -4,12 +4,12 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.concurrency;
+package net.royaltechnica.concurrency;
 
 import lombok.Data;
 
 /**
- * A simple default implementation of {@link com.skcraft.concurrency.ProgressObservable}
+ * A simple default implementation of {@link net.royaltechnica.concurrency.ProgressObservable}
  * with settable properties.
  */
 @Data

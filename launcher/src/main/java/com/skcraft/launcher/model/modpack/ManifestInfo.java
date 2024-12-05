@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.modpack;
+package net.royaltechnica.launcher.model.modpack;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

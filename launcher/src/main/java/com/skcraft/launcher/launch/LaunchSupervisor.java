@@ -4,26 +4,26 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.launch;
+package net.royaltechnica.launcher.launch;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
-import com.skcraft.concurrency.ObservableFuture;
-import com.skcraft.launcher.Instance;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.auth.Session;
-import com.skcraft.launcher.dialog.AccountSelectDialog;
-import com.skcraft.launcher.dialog.ProcessConsoleFrame;
-import com.skcraft.launcher.dialog.ProgressDialog;
-import com.skcraft.launcher.launch.LaunchOptions.UpdatePolicy;
-import com.skcraft.launcher.launch.runtime.JavaRuntime;
-import com.skcraft.launcher.model.minecraft.JavaVersion;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.update.Updater;
-import com.skcraft.launcher.util.SharedLocale;
-import com.skcraft.launcher.util.SwingExecutor;
+import net.royaltechnica.concurrency.ObservableFuture;
+import net.royaltechnica.launcher.Instance;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.auth.Session;
+import net.royaltechnica.launcher.dialog.AccountSelectDialog;
+import net.royaltechnica.launcher.dialog.ProcessConsoleFrame;
+import net.royaltechnica.launcher.dialog.ProgressDialog;
+import net.royaltechnica.launcher.launch.LaunchOptions.UpdatePolicy;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntime;
+import net.royaltechnica.launcher.model.minecraft.JavaVersion;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.update.Updater;
+import net.royaltechnica.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.util.SwingExecutor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 import org.apache.commons.io.FileUtils;
@@ -40,7 +40,7 @@ import java.util.function.BiPredicate;
 import java.util.logging.Level;
 
 import static com.google.common.util.concurrent.MoreExecutors.sameThreadExecutor;
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 @Log
 public class LaunchSupervisor {

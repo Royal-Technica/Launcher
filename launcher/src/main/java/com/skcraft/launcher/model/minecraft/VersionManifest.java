@@ -4,12 +4,12 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.minecraft;
+package net.royaltechnica.launcher.model.minecraft;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.base.Splitter;
-import com.skcraft.launcher.model.loader.SidedData;
+import net.royaltechnica.launcher.model.loader.SidedData;
 import lombok.Data;
 
 import java.util.Date;

@@ -1,6 +1,6 @@
-package com.skcraft.launcher.auth.microsoft.model;
+package net.royaltechnica.launcher.auth.microsoft.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @Data

@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.launch.runtime;
+package net.royaltechnica.launcher.launch.runtime;
 
-import com.skcraft.launcher.model.minecraft.JavaVersion;
-import com.skcraft.launcher.util.Environment;
+import net.royaltechnica.launcher.model.minecraft.JavaVersion;
+import net.royaltechnica.launcher.util.Environment;
 import lombok.extern.java.Log;
 
 import java.io.File;

@@ -4,26 +4,26 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
-import com.beust.jcommander.JCommander;
-import com.beust.jcommander.ParameterException;
+import net.beust.jcommander.JCommander;
+import net.beust.jcommander.ParameterException;
 import com.google.common.base.Strings;
 import com.google.common.base.Supplier;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
-import com.skcraft.launcher.auth.*;
-import com.skcraft.launcher.launch.LaunchSupervisor;
-import com.skcraft.launcher.model.minecraft.Library;
-import com.skcraft.launcher.model.minecraft.VersionManifest;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.update.UpdateManager;
-import com.skcraft.launcher.util.Environment;
-import com.skcraft.launcher.util.HttpRequest;
-import com.skcraft.launcher.util.SharedLocale;
-import com.skcraft.launcher.util.SimpleLogFormatter;
-import com.sun.management.OperatingSystemMXBean;
+import net.royaltechnica.launcher.auth.*;
+import net.royaltechnica.launcher.launch.LaunchSupervisor;
+import net.royaltechnica.launcher.model.minecraft.Library;
+import net.royaltechnica.launcher.model.minecraft.VersionManifest;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.update.UpdateManager;
+import net.royaltechnica.launcher.util.Environment;
+import net.royaltechnica.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.util.SimpleLogFormatter;
+import net.sun.management.OperatingSystemMXBean;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
@@ -44,7 +44,7 @@ import java.util.Properties;
 import java.util.concurrent.Executors;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 /**
  * The main entry point for the launcher.
@@ -87,10 +87,10 @@ public final class Launcher {
      * @throws java.io.IOException on load error
      */
     public Launcher(@NonNull File baseDir, @NonNull File configDir) throws IOException {
-        SharedLocale.loadBundle("com.skcraft.launcher.lang.Launcher", Locale.getDefault());
+        SharedLocale.loadBundle("net.royaltechnica.launcher.lang.Launcher", Locale.getDefault());
 
         this.baseDir = baseDir.getAbsoluteFile();
-        this.properties = LauncherUtils.loadProperties(Launcher.class, "launcher.properties", "com.skcraft.launcher.propertiesFile");
+        this.properties = LauncherUtils.loadProperties(Launcher.class, "launcher.properties", "net.royaltechnica.launcher.propertiesFile");
         this.instances = new InstanceList(this);
         this.assets = new AssetsRoot(new File(baseDir, "assets"));
         this.config = Persistence.load(new File(configDir, "config.json"), Configuration.class);

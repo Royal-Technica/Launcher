@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.util;
+package net.royaltechnica.launcher.util;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;

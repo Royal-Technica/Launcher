@@ -1,4 +1,4 @@
-package com.skcraft.launcher.auth.skin;
+package net.royaltechnica.launcher.auth.skin;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

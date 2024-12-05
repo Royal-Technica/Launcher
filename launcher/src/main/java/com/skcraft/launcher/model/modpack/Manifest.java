@@ -4,17 +4,17 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.modpack;
+package net.royaltechnica.launcher.model.modpack;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import net.fasterxml.jackson.annotation.JsonIgnore;
+import net.fasterxml.jackson.annotation.JsonManagedReference;
+import net.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.base.Strings;
-import com.skcraft.launcher.Instance;
-import com.skcraft.launcher.LauncherUtils;
-import com.skcraft.launcher.install.Installer;
-import com.skcraft.launcher.model.loader.LoaderManifest;
-import com.skcraft.launcher.model.minecraft.VersionManifest;
+import net.royaltechnica.launcher.Instance;
+import net.royaltechnica.launcher.LauncherUtils;
+import net.royaltechnica.launcher.install.Installer;
+import net.royaltechnica.launcher.model.loader.LoaderManifest;
+import net.royaltechnica.launcher.model.minecraft.VersionManifest;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

@@ -1,7 +1,7 @@
-package com.skcraft.launcher.auth.skin;
+package net.royaltechnica.launcher.auth.skin;
 
-import com.skcraft.launcher.auth.microsoft.model.McProfileResponse;
-import com.skcraft.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.auth.microsoft.model.McProfileResponse;
+import net.royaltechnica.launcher.util.HttpRequest;
 import lombok.extern.java.Log;
 
 import java.io.IOException;

@@ -4,20 +4,20 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.update;
+package net.royaltechnica.launcher.update;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
-import com.skcraft.concurrency.ObservableFuture;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.dialog.ProgressDialog;
-import com.skcraft.launcher.selfupdate.LatestVersionInfo;
-import com.skcraft.launcher.selfupdate.SelfUpdater;
-import com.skcraft.launcher.selfupdate.UpdateChecker;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.util.SharedLocale;
-import com.skcraft.launcher.util.SwingExecutor;
+import net.royaltechnica.concurrency.ObservableFuture;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.dialog.ProgressDialog;
+import net.royaltechnica.launcher.selfupdate.LatestVersionInfo;
+import net.royaltechnica.launcher.selfupdate.SelfUpdater;
+import net.royaltechnica.launcher.selfupdate.UpdateChecker;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.util.SwingExecutor;
 import lombok.Getter;
 
 import javax.swing.*;

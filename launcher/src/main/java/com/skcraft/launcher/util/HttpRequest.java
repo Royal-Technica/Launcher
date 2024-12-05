@@ -4,11 +4,11 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.util;
+package net.royaltechnica.launcher.util;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.skcraft.concurrency.ProgressObservable;
+import net.fasterxml.jackson.core.type.TypeReference;
+import net.fasterxml.jackson.databind.ObjectMapper;
+import net.royaltechnica.concurrency.ProgressObservable;
 import lombok.Data;
 import lombok.Getter;
 import lombok.extern.java.Log;
@@ -23,7 +23,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.*;
 
-import static com.skcraft.launcher.LauncherUtils.checkInterrupted;
+import static net.royaltechnica.launcher.LauncherUtils.checkInterrupted;
 import static org.apache.commons.io.IOUtils.closeQuietly;
 
 /**

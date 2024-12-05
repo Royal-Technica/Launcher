@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.modpack;
+package net.royaltechnica.launcher.model.modpack;
 
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.launch.JavaProcessBuilder;
+import net.royaltechnica.launcher.launch.JavaProcessBuilder;
 import lombok.Data;
 
 import java.util.List;

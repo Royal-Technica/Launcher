@@ -4,21 +4,21 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.dialog;
+package net.royaltechnica.launcher.dialog;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
-import com.skcraft.concurrency.ObservableFuture;
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.Configuration;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.auth.AuthenticationException;
-import com.skcraft.launcher.auth.Session;
-import com.skcraft.launcher.auth.YggdrasilLoginService;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.swing.*;
-import com.skcraft.launcher.util.SharedLocale;
-import com.skcraft.launcher.util.SwingExecutor;
+import net.royaltechnica.concurrency.ObservableFuture;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.Configuration;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.auth.AuthenticationException;
+import net.royaltechnica.launcher.auth.Session;
+import net.royaltechnica.launcher.auth.YggdrasilLoginService;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.swing.*;
+import net.royaltechnica.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.util.SwingExecutor;
 import lombok.Data;
 import lombok.Getter;
 import lombok.NonNull;

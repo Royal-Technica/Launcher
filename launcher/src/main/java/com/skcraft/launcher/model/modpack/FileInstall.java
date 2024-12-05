@@ -4,13 +4,13 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.modpack;
+package net.royaltechnica.launcher.model.modpack;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import net.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.hash.HashFunction;
 import com.google.common.hash.Hashing;
 import com.google.common.io.Files;
-import com.skcraft.launcher.install.*;
+import net.royaltechnica.launcher.install.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NonNull;
@@ -21,7 +21,7 @@ import java.io.IOException;
 import java.net.URL;
 
 import static com.google.common.base.Preconditions.checkNotNull;
-import static com.skcraft.launcher.LauncherUtils.concat;
+import static net.royaltechnica.launcher.LauncherUtils.concat;
 
 @Data
 @EqualsAndHashCode(callSuper = false)

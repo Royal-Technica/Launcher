@@ -4,22 +4,22 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.dialog;
+package net.royaltechnica.launcher.dialog;
 
-import com.skcraft.concurrency.ObservableFuture;
-import com.skcraft.launcher.Instance;
-import com.skcraft.launcher.InstanceList;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.launch.LaunchListener;
-import com.skcraft.launcher.launch.LaunchOptions;
-import com.skcraft.launcher.launch.LaunchOptions.UpdatePolicy;
-import com.skcraft.launcher.swing.*;
-import com.skcraft.launcher.util.SharedLocale;
-import com.skcraft.launcher.util.SwingExecutor;
+import net.royaltechnica.concurrency.ObservableFuture;
+import net.royaltechnica.launcher.Instance;
+import net.royaltechnica.launcher.InstanceList;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.launch.LaunchListener;
+import net.royaltechnica.launcher.launch.LaunchOptions;
+import net.royaltechnica.launcher.launch.LaunchOptions.UpdatePolicy;
+import net.royaltechnica.launcher.swing.*;
+import net.royaltechnica.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.util.SwingExecutor;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.extern.java.Log;
-import net.miginfocom.swing.MigLayout;
+import net.miginfonet.swing.MigLayout;
 
 import javax.swing.*;
 import javax.swing.event.TableModelEvent;
@@ -33,7 +33,7 @@ import java.beans.PropertyChangeListener;
 import java.io.File;
 import java.lang.ref.WeakReference;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 /**
  * The main launcher frame.

@@ -1,6 +1,6 @@
-package com.skcraft.launcher.launch.runtime;
+package net.royaltechnica.launcher.launch.runtime;
 
-import com.skcraft.launcher.util.EnvironmentParser;
+import net.royaltechnica.launcher.util.EnvironmentParser;
 import lombok.extern.java.Log;
 
 import java.io.File;

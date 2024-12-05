@@ -1,4 +1,4 @@
-package com.skcraft.launcher.model.minecraft;
+package net.royaltechnica.launcher.model.minecraft;
 
 import com.google.common.collect.Maps;
 import lombok.NoArgsConstructor;

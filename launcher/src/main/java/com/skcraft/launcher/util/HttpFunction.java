@@ -1,4 +1,4 @@
-package com.skcraft.launcher.util;
+package net.royaltechnica.launcher.util;
 
 import java.io.IOException;
 

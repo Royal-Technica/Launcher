@@ -1,13 +1,13 @@
-package com.skcraft.launcher.auth.skin;
+package net.royaltechnica.launcher.auth.skin;
 
-import com.skcraft.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.HttpRequest;
 import lombok.extern.java.Log;
 
 import javax.annotation.Nullable;
 import java.io.IOException;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.util.HttpRequest.url;
+import static net.royaltechnica.launcher.util.HttpRequest.url;
 
 @Log
 public class VisageSkinService {

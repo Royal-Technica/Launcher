@@ -4,15 +4,15 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
-import com.skcraft.concurrency.DefaultProgress;
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.model.modpack.ManifestInfo;
-import com.skcraft.launcher.model.modpack.PackageList;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.util.HttpRequest;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.concurrency.DefaultProgress;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.model.modpack.ManifestInfo;
+import net.royaltechnica.launcher.model.modpack.PackageList;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.extern.java.Log;
@@ -27,7 +27,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-import static com.skcraft.launcher.LauncherUtils.concat;
+import static net.royaltechnica.launcher.LauncherUtils.concat;
 
 /**
  * Stores the list of instances.

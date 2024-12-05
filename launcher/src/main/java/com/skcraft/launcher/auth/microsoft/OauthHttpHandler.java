@@ -1,11 +1,11 @@
-package com.skcraft.launcher.auth.microsoft;
+package net.royaltechnica.launcher.auth.microsoft;
 
 import com.google.common.base.Charsets;
 import com.google.common.base.Splitter;
-import com.skcraft.launcher.Launcher;
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
-import com.sun.net.httpserver.HttpServer;
+import net.royaltechnica.launcher.Launcher;
+import net.sun.net.httpserver.HttpExchange;
+import net.sun.net.httpserver.HttpHandler;
+import net.sun.net.httpserver.HttpServer;
 import lombok.extern.java.Log;
 import org.apache.commons.io.IOUtils;
 

@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.persistence;
+package net.royaltechnica.launcher.persistence;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 
 /**
  * Classes that are annotated with this will be saved <em>scrambled</em>
- * to disk when saved using {@link com.skcraft.launcher.persistence.Persistence}.
+ * to disk when saved using {@link net.royaltechnica.launcher.persistence.Persistence}.
  * </p>
  * The data may be scrambled using an encryption algorithm, but it's not
  * done with security in mind. Decryption requires a key, and that

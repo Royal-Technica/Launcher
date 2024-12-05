@@ -1,15 +1,15 @@
-package com.skcraft.launcher.dialog;
+package net.royaltechnica.launcher.dialog;
 
-import com.skcraft.launcher.Instance;
-import com.skcraft.launcher.InstanceSettings;
-import com.skcraft.launcher.dialog.component.BetterComboBox;
-import com.skcraft.launcher.launch.MemorySettings;
-import com.skcraft.launcher.launch.runtime.JavaRuntime;
-import com.skcraft.launcher.launch.runtime.JavaRuntimeFinder;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.swing.FormPanel;
-import com.skcraft.launcher.swing.LinedBoxPanel;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.Instance;
+import net.royaltechnica.launcher.InstanceSettings;
+import net.royaltechnica.launcher.dialog.component.BetterComboBox;
+import net.royaltechnica.launcher.launch.MemorySettings;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntime;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntimeFinder;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.swing.FormPanel;
+import net.royaltechnica.launcher.swing.LinedBoxPanel;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.extern.java.Log;
 
 import javax.swing.*;

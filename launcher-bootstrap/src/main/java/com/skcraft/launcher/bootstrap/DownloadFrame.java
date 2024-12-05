@@ -4,9 +4,9 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.bootstrap;
+package net.royaltechnica.launcher.bootstrap;
 
-import com.skcraft.launcher.Bootstrap;
+import net.royaltechnica.launcher.Bootstrap;
 import lombok.extern.java.Log;
 
 import javax.swing.*;
@@ -18,7 +18,7 @@ import java.awt.event.WindowEvent;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.skcraft.launcher.bootstrap.SharedLocale.tr;
+import static net.royaltechnica.launcher.bootstrap.SharedLocale.tr;
 
 @Log
 public class DownloadFrame extends JFrame {

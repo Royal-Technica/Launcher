@@ -4,9 +4,9 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
-import com.skcraft.launcher.model.modpack.*;
+import net.royaltechnica.launcher.model.modpack.*;
 import lombok.Getter;
 import lombok.Setter;
 

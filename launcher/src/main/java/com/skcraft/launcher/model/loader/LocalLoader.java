@@ -1,6 +1,6 @@
-package com.skcraft.launcher.model.loader;
+package net.royaltechnica.launcher.model.loader;
 
-import com.skcraft.launcher.model.modpack.DownloadableFile;
+import net.royaltechnica.launcher.model.modpack.DownloadableFile;
 import lombok.Data;
 
 import java.util.HashMap;

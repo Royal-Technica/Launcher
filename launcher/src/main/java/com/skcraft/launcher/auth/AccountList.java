@@ -1,10 +1,10 @@
-package com.skcraft.launcher.auth;
+package net.royaltechnica.launcher.auth;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonIgnore;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.dialog.component.ListListenerReducer;
-import com.skcraft.launcher.persistence.Scrambled;
+import net.royaltechnica.launcher.dialog.component.ListListenerReducer;
+import net.royaltechnica.launcher.persistence.Scrambled;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

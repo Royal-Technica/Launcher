@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.skcraft.launcher.model.modpack.Feature;
+import net.fasterxml.jackson.annotation.JsonProperty;
+import net.royaltechnica.launcher.model.modpack.Feature;
 import lombok.Data;
 
 @Data

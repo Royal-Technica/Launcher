@@ -1,10 +1,10 @@
-package com.skcraft.launcher.model.minecraft.mapper;
+package net.royaltechnica.launcher.model.minecraft.mapper;
 
-import com.fasterxml.jackson.core.JsonGenerationException;
-import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.databind.SerializerProvider;
-import com.fasterxml.jackson.databind.ser.std.StdSerializer;
-import com.fasterxml.jackson.databind.type.TypeFactory;
+import net.fasterxml.jackson.core.JsonGenerationException;
+import net.fasterxml.jackson.core.JsonGenerator;
+import net.fasterxml.jackson.databind.SerializerProvider;
+import net.fasterxml.jackson.databind.ser.std.StdSerializer;
+import net.fasterxml.jackson.databind.type.TypeFactory;
 
 import java.io.IOException;
 import java.util.List;

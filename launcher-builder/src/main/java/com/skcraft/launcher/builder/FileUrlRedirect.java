@@ -1,4 +1,4 @@
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
 import com.google.common.io.Files;
 import lombok.Data;
@@ -9,7 +9,7 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.List;
 
-import static com.skcraft.launcher.util.HttpRequest.url;
+import static net.royaltechnica.launcher.util.HttpRequest.url;
 
 @Data
 public class FileUrlRedirect {

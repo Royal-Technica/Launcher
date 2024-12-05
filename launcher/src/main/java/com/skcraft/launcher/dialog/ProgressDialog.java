@@ -4,17 +4,17 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.dialog;
+package net.royaltechnica.launcher.dialog;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
-import com.skcraft.concurrency.ObservableFuture;
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.swing.LinedBoxPanel;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.util.SharedLocale;
-import com.skcraft.launcher.util.SwingExecutor;
+import net.royaltechnica.concurrency.ObservableFuture;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.swing.LinedBoxPanel;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.util.SwingExecutor;
 import lombok.extern.java.Log;
 
 import javax.swing.*;
@@ -27,7 +27,7 @@ import java.lang.ref.WeakReference;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 @Log
 public class ProgressDialog extends JDialog {

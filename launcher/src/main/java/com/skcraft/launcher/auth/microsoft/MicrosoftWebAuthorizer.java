@@ -1,8 +1,8 @@
-package com.skcraft.launcher.auth.microsoft;
+package net.royaltechnica.launcher.auth.microsoft;
 
-import com.skcraft.launcher.auth.AuthenticationException;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.auth.AuthenticationException;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.util.HttpRequest;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

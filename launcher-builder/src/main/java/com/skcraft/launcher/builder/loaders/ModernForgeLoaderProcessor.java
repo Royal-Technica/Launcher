@@ -1,21 +1,21 @@
-package com.skcraft.launcher.builder.loaders;
+package net.royaltechnica.launcher.builder.loaders;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import net.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.collect.Lists;
 import com.google.common.io.CharStreams;
 import com.google.common.io.Closer;
-import com.skcraft.launcher.builder.BuilderUtils;
-import com.skcraft.launcher.model.loader.LoaderManifest;
-import com.skcraft.launcher.model.loader.SidedData;
-import com.skcraft.launcher.model.loader.VersionInfo;
-import com.skcraft.launcher.model.loader.profiles.ModernForgeInstallProfile;
-import com.skcraft.launcher.model.minecraft.GameArgument;
-import com.skcraft.launcher.model.minecraft.Library;
-import com.skcraft.launcher.model.minecraft.Side;
-import com.skcraft.launcher.model.minecraft.VersionManifest;
-import com.skcraft.launcher.model.modpack.DownloadableFile;
-import com.skcraft.launcher.model.modpack.Manifest;
-import com.skcraft.launcher.util.FileUtils;
+import net.royaltechnica.launcher.builder.BuilderUtils;
+import net.royaltechnica.launcher.model.loader.LoaderManifest;
+import net.royaltechnica.launcher.model.loader.SidedData;
+import net.royaltechnica.launcher.model.loader.VersionInfo;
+import net.royaltechnica.launcher.model.loader.profiles.ModernForgeInstallProfile;
+import net.royaltechnica.launcher.model.minecraft.GameArgument;
+import net.royaltechnica.launcher.model.minecraft.Library;
+import net.royaltechnica.launcher.model.minecraft.Side;
+import net.royaltechnica.launcher.model.minecraft.VersionManifest;
+import net.royaltechnica.launcher.model.modpack.DownloadableFile;
+import net.royaltechnica.launcher.model.modpack.Manifest;
+import net.royaltechnica.launcher.util.FileUtils;
 import lombok.extern.java.Log;
 
 import java.io.*;

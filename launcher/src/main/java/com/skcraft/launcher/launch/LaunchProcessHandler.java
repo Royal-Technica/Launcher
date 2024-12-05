@@ -4,13 +4,13 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.launch;
+package net.royaltechnica.launcher.launch;
 
 import com.google.common.base.Function;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.dialog.LauncherFrame;
-import com.skcraft.launcher.dialog.ProcessConsoleFrame;
-import com.skcraft.launcher.swing.MessageLog;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.dialog.LauncherFrame;
+import net.royaltechnica.launcher.dialog.ProcessConsoleFrame;
+import net.royaltechnica.launcher.swing.MessageLog;
 import lombok.NonNull;
 import lombok.extern.java.Log;
 

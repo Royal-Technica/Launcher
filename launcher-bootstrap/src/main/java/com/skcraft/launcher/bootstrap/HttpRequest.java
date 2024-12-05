@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.bootstrap;
+package net.royaltechnica.launcher.bootstrap;
 
 import lombok.Getter;
 import lombok.extern.java.Log;
@@ -22,8 +22,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.skcraft.launcher.bootstrap.BootstrapUtils.checkInterrupted;
-import static com.skcraft.launcher.bootstrap.BootstrapUtils.closeQuietly;
+import static net.royaltechnica.launcher.bootstrap.BootstrapUtils.checkInterrupted;
+import static net.royaltechnica.launcher.bootstrap.BootstrapUtils.closeQuietly;
 
 /**
  * A simple fluent interface for performing HTTP requests that uses

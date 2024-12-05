@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.dialog;
+package net.royaltechnica.launcher.dialog;
 
-import com.skcraft.launcher.swing.ActionListeners;
-import net.miginfocom.swing.MigLayout;
+import net.royaltechnica.launcher.swing.ActionListeners;
+import net.miginfonet.swing.MigLayout;
 
 import javax.swing.*;
 import java.awt.*;

@@ -4,9 +4,9 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.swing;
+package net.royaltechnica.launcher.swing;
 
-import com.skcraft.launcher.LauncherUtils;
+import net.royaltechnica.launcher.LauncherUtils;
 import lombok.extern.java.Log;
 
 import javax.swing.*;
@@ -26,7 +26,7 @@ import java.net.URL;
 import java.util.Enumeration;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.LauncherUtils.checkInterrupted;
+import static net.royaltechnica.launcher.LauncherUtils.checkInterrupted;
 
 @Log
 public final class WebpagePanel extends JPanel {

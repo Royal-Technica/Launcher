@@ -1,12 +1,12 @@
-package com.skcraft.launcher.launch.runtime;
+package net.royaltechnica.launcher.launch.runtime;
 
-import com.dd.plist.NSArray;
-import com.dd.plist.NSDictionary;
-import com.dd.plist.NSObject;
-import com.dd.plist.PropertyListParser;
+import net.dd.plist.NSArray;
+import net.dd.plist.NSDictionary;
+import net.dd.plist.NSObject;
+import net.dd.plist.PropertyListParser;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.util.Environment;
+import net.royaltechnica.launcher.util.Environment;
 import lombok.extern.java.Log;
 
 import java.io.File;

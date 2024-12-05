@@ -1,10 +1,10 @@
-package com.skcraft.launcher.util;
+package net.royaltechnica.launcher.util;
 
 import com.google.common.hash.HashFunction;
 import com.google.common.hash.Hashing;
 import com.google.common.io.ByteStreams;
 import com.google.common.io.Files;
-import com.skcraft.launcher.model.modpack.DownloadableFile;
+import net.royaltechnica.launcher.model.modpack.DownloadableFile;
 
 import java.io.File;
 import java.io.FileInputStream;

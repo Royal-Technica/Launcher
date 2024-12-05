@@ -1,6 +1,6 @@
-package com.skcraft.launcher.auth;
+package net.royaltechnica.launcher.auth;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 

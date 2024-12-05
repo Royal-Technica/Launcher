@@ -4,9 +4,9 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
-import com.beust.jcommander.Parameter;
+import net.beust.jcommander.Parameter;
 import lombok.Data;
 
 import java.io.File;

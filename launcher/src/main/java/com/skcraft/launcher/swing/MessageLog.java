@@ -4,11 +4,11 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.swing;
+package net.royaltechnica.launcher.swing;
 
-import com.skcraft.launcher.LauncherUtils;
-import com.skcraft.launcher.util.LimitLinesDocumentListener;
-import com.skcraft.launcher.util.SimpleLogFormatter;
+import net.royaltechnica.launcher.LauncherUtils;
+import net.royaltechnica.launcher.util.LimitLinesDocumentListener;
+import net.royaltechnica.launcher.util.SimpleLogFormatter;
 
 import javax.swing.*;
 import javax.swing.text.*;

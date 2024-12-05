@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.auth;
+package net.royaltechnica.launcher.auth;
 
-import com.fasterxml.jackson.annotation.*;
-import com.skcraft.launcher.util.HttpRequest;
+import net.fasterxml.jackson.annotation.*;
+import net.royaltechnica.launcher.util.HttpRequest;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;

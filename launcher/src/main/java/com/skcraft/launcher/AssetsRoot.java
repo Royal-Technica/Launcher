@@ -4,13 +4,13 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.model.minecraft.Asset;
-import com.skcraft.launcher.model.minecraft.AssetsIndex;
-import com.skcraft.launcher.model.minecraft.VersionManifest;
-import com.skcraft.launcher.persistence.Persistence;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.model.minecraft.Asset;
+import net.royaltechnica.launcher.model.minecraft.AssetsIndex;
+import net.royaltechnica.launcher.model.minecraft.VersionManifest;
+import net.royaltechnica.launcher.persistence.Persistence;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.extern.java.Log;
@@ -21,7 +21,7 @@ import java.nio.file.Files;
 import java.util.Map;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 /**
  * Represents a directory that stores assets for Minecraft. The class has

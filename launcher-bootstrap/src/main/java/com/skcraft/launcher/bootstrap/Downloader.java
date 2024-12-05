@@ -4,9 +4,9 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.bootstrap;
+package net.royaltechnica.launcher.bootstrap;
 
-import com.skcraft.launcher.Bootstrap;
+import net.royaltechnica.launcher.Bootstrap;
 import lombok.extern.java.Log;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
@@ -19,8 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.bootstrap.BootstrapUtils.checkInterrupted;
-import static com.skcraft.launcher.bootstrap.SharedLocale.tr;
+import static net.royaltechnica.launcher.bootstrap.BootstrapUtils.checkInterrupted;
+import static net.royaltechnica.launcher.bootstrap.SharedLocale.tr;
 
 @Log
 public class Downloader implements Runnable, ProgressObservable {

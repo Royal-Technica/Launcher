@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.skin;
+package net.royaltechnica.launcher.skin;
 
 import org.pushingpixels.substance.api.shaper.ClassicButtonShaper;
 

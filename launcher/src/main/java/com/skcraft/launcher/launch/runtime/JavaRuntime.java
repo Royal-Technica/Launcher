@@ -1,8 +1,8 @@
-package com.skcraft.launcher.launch.runtime;
+package net.royaltechnica.launcher.launch.runtime;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonValue;
+import net.fasterxml.jackson.annotation.JsonCreator;
+import net.fasterxml.jackson.annotation.JsonIgnore;
+import net.fasterxml.jackson.annotation.JsonValue;
 import com.google.common.base.Objects;
 import lombok.Data;
 

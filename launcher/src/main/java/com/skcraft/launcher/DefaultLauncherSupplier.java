@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
 import com.google.common.base.Supplier;
-import com.skcraft.launcher.dialog.LauncherFrame;
+import net.royaltechnica.launcher.dialog.LauncherFrame;
 
 import java.awt.*;
 

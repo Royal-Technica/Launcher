@@ -4,9 +4,9 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
-import com.skcraft.launcher.bootstrap.*;
+import net.royaltechnica.launcher.bootstrap.*;
 import lombok.Getter;
 import lombok.extern.java.Log;
 
@@ -23,7 +23,7 @@ import java.net.URLClassLoader;
 import java.util.*;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.bootstrap.SharedLocale.tr;
+import static net.royaltechnica.launcher.bootstrap.SharedLocale.tr;
 
 @Log
 public class Bootstrap {
@@ -38,7 +38,7 @@ public class Bootstrap {
 
     public static void main(String[] args) throws Throwable {
         SimpleLogFormatter.configureGlobalLogger();
-        SharedLocale.loadBundle("com.skcraft.launcher.lang.Bootstrap", Locale.getDefault());
+        SharedLocale.loadBundle("net.royaltechnica.launcher.lang.Bootstrap", Locale.getDefault());
 
         boolean portable = isPortableMode();
 

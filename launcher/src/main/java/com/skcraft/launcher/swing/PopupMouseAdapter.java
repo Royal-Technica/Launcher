@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.swing;
+package net.royaltechnica.launcher.swing;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;

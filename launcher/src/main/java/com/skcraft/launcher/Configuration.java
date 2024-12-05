@@ -4,11 +4,11 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.skcraft.launcher.launch.runtime.JavaRuntime;
-import com.skcraft.launcher.launch.runtime.JavaRuntimeFinder;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntime;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntimeFinder;
 import lombok.Data;
 
 /**

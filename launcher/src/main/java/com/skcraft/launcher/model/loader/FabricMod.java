@@ -1,6 +1,6 @@
-package com.skcraft.launcher.model.loader;
+package net.royaltechnica.launcher.model.loader;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @Data

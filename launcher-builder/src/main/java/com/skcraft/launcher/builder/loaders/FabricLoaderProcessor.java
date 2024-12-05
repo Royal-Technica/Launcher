@@ -1,15 +1,15 @@
-package com.skcraft.launcher.builder.loaders;
+package net.royaltechnica.launcher.builder.loaders;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import net.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.io.Closer;
-import com.skcraft.launcher.builder.BuilderUtils;
-import com.skcraft.launcher.model.loader.FabricMod;
-import com.skcraft.launcher.model.loader.QuiltMod;
-import com.skcraft.launcher.model.loader.Versionable;
-import com.skcraft.launcher.model.minecraft.Library;
-import com.skcraft.launcher.model.minecraft.VersionManifest;
-import com.skcraft.launcher.model.modpack.Manifest;
-import com.skcraft.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.builder.BuilderUtils;
+import net.royaltechnica.launcher.model.loader.FabricMod;
+import net.royaltechnica.launcher.model.loader.QuiltMod;
+import net.royaltechnica.launcher.model.loader.Versionable;
+import net.royaltechnica.launcher.model.minecraft.Library;
+import net.royaltechnica.launcher.model.minecraft.VersionManifest;
+import net.royaltechnica.launcher.model.modpack.Manifest;
+import net.royaltechnica.launcher.util.HttpRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 

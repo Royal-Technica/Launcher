@@ -4,9 +4,9 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.auth;
+package net.royaltechnica.launcher.auth;
 
-import com.skcraft.launcher.LauncherException;
+import net.royaltechnica.launcher.LauncherException;
 import lombok.Getter;
 
 /**

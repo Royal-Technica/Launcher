@@ -4,12 +4,12 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.minecraft.mapper;
+package net.royaltechnica.launcher.model.minecraft.mapper;
 
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.databind.DeserializationContext;
-import com.fasterxml.jackson.databind.JsonDeserializer;
-import com.skcraft.launcher.util.Platform;
+import net.fasterxml.jackson.core.JsonParser;
+import net.fasterxml.jackson.databind.DeserializationContext;
+import net.fasterxml.jackson.databind.JsonDeserializer;
+import net.royaltechnica.launcher.util.Platform;
 
 import java.io.IOException;
 

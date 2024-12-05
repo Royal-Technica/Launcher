@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.install;
+package net.royaltechnica.launcher.install;
 
 import com.google.common.base.Charsets;
 import com.google.common.base.Strings;
@@ -14,9 +14,9 @@ import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.util.HttpRequest;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
@@ -30,7 +30,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 @Log
 public class HttpDownloader implements Downloader {

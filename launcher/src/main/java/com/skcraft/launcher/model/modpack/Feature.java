@@ -4,12 +4,12 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.modpack;
+package net.royaltechnica.launcher.model.modpack;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonValue;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import net.fasterxml.jackson.annotation.JsonCreator;
+import net.fasterxml.jackson.annotation.JsonIdentityInfo;
+import net.fasterxml.jackson.annotation.JsonValue;
+import net.fasterxml.jackson.annotation.ObjectIdGenerators;
 import com.google.common.base.Strings;
 import lombok.Data;
 

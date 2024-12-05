@@ -4,11 +4,11 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.install;
+package net.royaltechnica.launcher.install;
 
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.extern.java.Log;
@@ -19,8 +19,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static com.skcraft.launcher.LauncherUtils.checkInterrupted;
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.LauncherUtils.checkInterrupted;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 @Log
 public class Installer implements ProgressObservable {

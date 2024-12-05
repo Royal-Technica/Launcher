@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.persistence;
+package net.royaltechnica.launcher.persistence;
 
 import com.google.common.io.ByteSource;
 

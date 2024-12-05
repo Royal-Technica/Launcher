@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.skcraft.launcher.model.modpack.Feature;
+import net.fasterxml.jackson.databind.ObjectMapper;
+import net.royaltechnica.launcher.model.modpack.Feature;
 import lombok.Getter;
 import lombok.extern.java.Log;
 
@@ -19,7 +19,7 @@ import java.util.List;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Strings.emptyToNull;
-import static com.skcraft.launcher.builder.ClientFileCollector.getDirectoryBehavior;
+import static net.royaltechnica.launcher.builder.ClientFileCollector.getDirectoryBehavior;
 import static org.apache.commons.io.FilenameUtils.*;
 
 @Log

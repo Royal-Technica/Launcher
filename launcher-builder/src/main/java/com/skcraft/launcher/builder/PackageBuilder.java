@@ -4,30 +4,30 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
-import com.beust.jcommander.JCommander;
-import com.beust.jcommander.ParameterException;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
+import net.beust.jcommander.JCommander;
+import net.beust.jcommander.ParameterException;
+import net.fasterxml.jackson.annotation.JsonInclude;
+import net.fasterxml.jackson.core.type.TypeReference;
+import net.fasterxml.jackson.databind.ObjectMapper;
+import net.fasterxml.jackson.databind.ObjectWriter;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
 import com.google.common.io.ByteStreams;
 import com.google.common.io.Closer;
 import com.google.common.io.Files;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.LauncherUtils;
-import com.skcraft.launcher.builder.loaders.*;
-import com.skcraft.launcher.model.loader.BasicInstallProfile;
-import com.skcraft.launcher.model.minecraft.Library;
-import com.skcraft.launcher.model.minecraft.ReleaseList;
-import com.skcraft.launcher.model.minecraft.Version;
-import com.skcraft.launcher.model.minecraft.VersionManifest;
-import com.skcraft.launcher.model.modpack.Manifest;
-import com.skcraft.launcher.util.HttpRequest;
-import com.skcraft.launcher.util.SimpleLogFormatter;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.LauncherUtils;
+import net.royaltechnica.launcher.builder.loaders.*;
+import net.royaltechnica.launcher.model.loader.BasicInstallProfile;
+import net.royaltechnica.launcher.model.minecraft.Library;
+import net.royaltechnica.launcher.model.minecraft.ReleaseList;
+import net.royaltechnica.launcher.model.minecraft.Version;
+import net.royaltechnica.launcher.model.minecraft.VersionManifest;
+import net.royaltechnica.launcher.model.modpack.Manifest;
+import net.royaltechnica.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.SimpleLogFormatter;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
@@ -45,7 +45,7 @@ import java.util.zip.ZipEntry;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Strings.emptyToNull;
-import static com.skcraft.launcher.util.HttpRequest.url;
+import static net.royaltechnica.launcher.util.HttpRequest.url;
 
 /**
  * Builds packages for the launcher.
@@ -76,7 +76,7 @@ public class PackageBuilder {
      */
     public PackageBuilder(@NonNull ObjectMapper mapper, @NonNull Manifest manifest) throws IOException {
         this.properties = LauncherUtils.loadProperties(Launcher.class,
-                "launcher.properties", "com.skcraft.launcher.propertiesFile");
+                "launcher.properties", "net.royaltechnica.launcher.propertiesFile");
 
         this.mapper = mapper;
         this.manifest = manifest;

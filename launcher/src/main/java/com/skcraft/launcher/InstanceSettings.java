@@ -1,8 +1,8 @@
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.skcraft.launcher.launch.MemorySettings;
-import com.skcraft.launcher.launch.runtime.JavaRuntime;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.royaltechnica.launcher.launch.MemorySettings;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntime;
 import lombok.Data;
 
 @Data

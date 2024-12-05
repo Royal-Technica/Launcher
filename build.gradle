@@ -5,7 +5,7 @@ plugins {
 
 println """
 *******************************************
- You are building SKCraft Launcher! 
+ You are building Royal Launcher! 
 
  Output files will be in [subproject]/build/libs
 *******************************************
@@ -14,7 +14,7 @@ println """
 subprojects {
     apply plugin: 'java'
 
-    group = 'com.skcraft'
+    group = 'net.royaltechnica'
     version = '4.6-SNAPSHOT'
 
     java {

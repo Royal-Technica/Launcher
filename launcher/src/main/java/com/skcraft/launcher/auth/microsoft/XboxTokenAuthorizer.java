@@ -1,14 +1,14 @@
-package com.skcraft.launcher.auth.microsoft;
+package net.royaltechnica.launcher.auth.microsoft;
 
-import com.skcraft.launcher.auth.AuthenticationException;
-import com.skcraft.launcher.auth.microsoft.model.*;
-import com.skcraft.launcher.util.HttpRequest;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.auth.AuthenticationException;
+import net.royaltechnica.launcher.auth.microsoft.model.*;
+import net.royaltechnica.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.SharedLocale;
 
 import java.io.IOException;
 import java.net.URL;
 
-import static com.skcraft.launcher.util.HttpRequest.url;
+import static net.royaltechnica.launcher.util.HttpRequest.url;
 
 public class XboxTokenAuthorizer {
 	private static final URL XBL_AUTHENTICATE_URL = url("https://user.auth.xboxlive.com/user/authenticate");

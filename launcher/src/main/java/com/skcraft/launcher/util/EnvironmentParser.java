@@ -1,4 +1,4 @@
-package com.skcraft.launcher.util;
+package net.royaltechnica.launcher.util;
 
 import com.google.common.io.CharSource;
 import com.google.common.io.Files;

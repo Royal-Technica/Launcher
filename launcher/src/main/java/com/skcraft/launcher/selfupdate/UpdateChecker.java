@@ -4,12 +4,12 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.selfupdate;
+package net.royaltechnica.launcher.selfupdate;
 
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.LauncherException;
-import com.skcraft.launcher.util.HttpRequest;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.LauncherException;
+import net.royaltechnica.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.NonNull;
 import lombok.extern.java.Log;
 

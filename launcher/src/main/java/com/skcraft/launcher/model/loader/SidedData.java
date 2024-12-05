@@ -1,7 +1,7 @@
-package com.skcraft.launcher.model.loader;
+package net.royaltechnica.launcher.model.loader;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.skcraft.launcher.model.minecraft.Side;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.royaltechnica.launcher.model.minecraft.Side;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

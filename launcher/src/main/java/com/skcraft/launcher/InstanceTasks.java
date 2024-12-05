@@ -4,18 +4,18 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
-import com.skcraft.concurrency.ObservableFuture;
-import com.skcraft.launcher.dialog.ProgressDialog;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.update.HardResetter;
-import com.skcraft.launcher.update.Remover;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.concurrency.ObservableFuture;
+import net.royaltechnica.launcher.dialog.ProgressDialog;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.update.HardResetter;
+import net.royaltechnica.launcher.update.Remover;
+import net.royaltechnica.launcher.util.SharedLocale;
 
 import java.awt.*;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 public class InstanceTasks {
 

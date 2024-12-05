@@ -4,16 +4,16 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.modpack;
+package net.royaltechnica.launcher.model.modpack;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonSubTypes;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import com.skcraft.launcher.install.InstallExtras;
-import com.skcraft.launcher.install.InstallLog;
-import com.skcraft.launcher.install.Installer;
-import com.skcraft.launcher.install.UpdateCache;
-import com.skcraft.launcher.model.loader.ProcessorEntry;
+import net.fasterxml.jackson.annotation.JsonBackReference;
+import net.fasterxml.jackson.annotation.JsonSubTypes;
+import net.fasterxml.jackson.annotation.JsonTypeInfo;
+import net.royaltechnica.launcher.install.InstallExtras;
+import net.royaltechnica.launcher.install.InstallLog;
+import net.royaltechnica.launcher.install.Installer;
+import net.royaltechnica.launcher.install.UpdateCache;
+import net.royaltechnica.launcher.model.loader.ProcessorEntry;
 import lombok.Data;
 import lombok.ToString;
 

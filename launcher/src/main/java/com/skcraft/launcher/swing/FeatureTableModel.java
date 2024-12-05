@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.swing;
+package net.royaltechnica.launcher.swing;
 
-import com.skcraft.launcher.model.modpack.Feature;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.model.modpack.Feature;
+import net.royaltechnica.launcher.util.SharedLocale;
 
 import javax.swing.table.AbstractTableModel;
 import java.util.List;

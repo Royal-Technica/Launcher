@@ -4,13 +4,13 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.update;
+package net.royaltechnica.launcher.update;
 
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.Instance;
-import com.skcraft.launcher.LauncherException;
-import com.skcraft.launcher.LauncherUtils;
-import com.skcraft.launcher.persistence.Persistence;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.Instance;
+import net.royaltechnica.launcher.LauncherException;
+import net.royaltechnica.launcher.LauncherUtils;
+import net.royaltechnica.launcher.persistence.Persistence;
 import lombok.NonNull;
 
 import java.io.File;
@@ -19,8 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-import static com.skcraft.launcher.LauncherUtils.checkInterrupted;
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.LauncherUtils.checkInterrupted;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 public class Remover implements Callable<Instance>, ProgressObservable {
 

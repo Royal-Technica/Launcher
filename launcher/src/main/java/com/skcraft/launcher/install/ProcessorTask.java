@@ -1,18 +1,18 @@
-package com.skcraft.launcher.install;
+package net.royaltechnica.launcher.install;
 
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.model.loader.InstallProcessor;
-import com.skcraft.launcher.model.loader.LoaderManifest;
-import com.skcraft.launcher.model.loader.LoaderSubResolver;
-import com.skcraft.launcher.model.loader.SidedData;
-import com.skcraft.launcher.model.minecraft.Library;
-import com.skcraft.launcher.model.minecraft.Side;
-import com.skcraft.launcher.model.minecraft.VersionManifest;
-import com.skcraft.launcher.model.modpack.DownloadableFile;
-import com.skcraft.launcher.model.modpack.Manifest;
-import com.skcraft.launcher.util.Environment;
-import com.skcraft.launcher.util.FileUtils;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.model.loader.InstallProcessor;
+import net.royaltechnica.launcher.model.loader.LoaderManifest;
+import net.royaltechnica.launcher.model.loader.LoaderSubResolver;
+import net.royaltechnica.launcher.model.loader.SidedData;
+import net.royaltechnica.launcher.model.minecraft.Library;
+import net.royaltechnica.launcher.model.minecraft.Side;
+import net.royaltechnica.launcher.model.minecraft.VersionManifest;
+import net.royaltechnica.launcher.model.modpack.DownloadableFile;
+import net.royaltechnica.launcher.model.modpack.Manifest;
+import net.royaltechnica.launcher.util.Environment;
+import net.royaltechnica.launcher.util.FileUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 
@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.jar.Attributes;
 import java.util.jar.JarFile;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 @RequiredArgsConstructor
 @Log

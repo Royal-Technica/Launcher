@@ -1,4 +1,4 @@
-package com.skcraft.launcher.launch;
+package net.royaltechnica.launcher.launch;
 
 import lombok.Data;
 

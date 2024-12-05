@@ -1,8 +1,8 @@
-package com.skcraft.launcher.launch.runtime;
+package net.royaltechnica.launcher.launch.runtime;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.util.Environment;
+import net.royaltechnica.launcher.util.Environment;
 
 import java.io.File;
 import java.io.IOException;

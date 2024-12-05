@@ -4,30 +4,30 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.update;
+package net.royaltechnica.launcher.update;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Maps;
-import com.skcraft.launcher.AssetsRoot;
-import com.skcraft.launcher.Instance;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.LauncherException;
-import com.skcraft.launcher.dialog.FeatureSelectionDialog;
-import com.skcraft.launcher.dialog.ProgressDialog;
-import com.skcraft.launcher.install.*;
-import com.skcraft.launcher.model.loader.LoaderManifest;
-import com.skcraft.launcher.model.loader.LocalLoader;
-import com.skcraft.launcher.model.minecraft.*;
-import com.skcraft.launcher.model.modpack.DownloadableFile;
-import com.skcraft.launcher.model.modpack.Feature;
-import com.skcraft.launcher.model.modpack.Manifest;
-import com.skcraft.launcher.model.modpack.ManifestEntry;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.util.Environment;
-import com.skcraft.launcher.util.FileUtils;
-import com.skcraft.launcher.util.HttpRequest;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.AssetsRoot;
+import net.royaltechnica.launcher.Instance;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.LauncherException;
+import net.royaltechnica.launcher.dialog.FeatureSelectionDialog;
+import net.royaltechnica.launcher.dialog.ProgressDialog;
+import net.royaltechnica.launcher.install.*;
+import net.royaltechnica.launcher.model.loader.LoaderManifest;
+import net.royaltechnica.launcher.model.loader.LocalLoader;
+import net.royaltechnica.launcher.model.minecraft.*;
+import net.royaltechnica.launcher.model.modpack.DownloadableFile;
+import net.royaltechnica.launcher.model.modpack.Feature;
+import net.royaltechnica.launcher.model.modpack.Manifest;
+import net.royaltechnica.launcher.model.modpack.ManifestEntry;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.util.Environment;
+import net.royaltechnica.launcher.util.FileUtils;
+import net.royaltechnica.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.NonNull;
 import lombok.extern.java.Log;
 
@@ -43,16 +43,16 @@ import java.nio.file.StandardCopyOption;
 import java.util.*;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.LauncherUtils.checkInterrupted;
-import static com.skcraft.launcher.LauncherUtils.concat;
-import static com.skcraft.launcher.util.HttpRequest.url;
+import static net.royaltechnica.launcher.LauncherUtils.checkInterrupted;
+import static net.royaltechnica.launcher.LauncherUtils.concat;
+import static net.royaltechnica.launcher.util.HttpRequest.url;
 
 /**
  * The base implementation of the various routines involved in downloading
  * and updating Minecraft (including the launcher's modpacks), such as asset
  * downloading, .jar downloading, and so on.
  * </p>
- * Updating actually starts in {@link com.skcraft.launcher.update.Updater},
+ * Updating actually starts in {@link net.royaltechnica.launcher.update.Updater},
  * which is the update worker. This class exists to allow updaters that don't
  * use the launcher's default modpack format to reuse these update
  * routines. (It also makes the size of the <code>Updater</code> class smaller.)

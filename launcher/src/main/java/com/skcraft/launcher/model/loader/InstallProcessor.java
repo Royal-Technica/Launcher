@@ -1,8 +1,8 @@
-package com.skcraft.launcher.model.loader;
+package net.royaltechnica.launcher.model.loader;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.model.minecraft.Side;
+import net.royaltechnica.launcher.model.minecraft.Side;
 import lombok.Data;
 
 import java.util.Collections;

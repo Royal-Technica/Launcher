@@ -4,25 +4,25 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.launch;
+package net.royaltechnica.launcher.launch;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import net.fasterxml.jackson.core.JsonProcessingException;
+import net.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.io.Files;
-import com.skcraft.concurrency.DefaultProgress;
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.*;
-import com.skcraft.launcher.auth.Session;
-import com.skcraft.launcher.install.ZipExtract;
-import com.skcraft.launcher.launch.runtime.JavaRuntime;
-import com.skcraft.launcher.launch.runtime.JavaRuntimeFinder;
-import com.skcraft.launcher.model.minecraft.*;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.util.Environment;
-import com.skcraft.launcher.util.Platform;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.concurrency.DefaultProgress;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.*;
+import net.royaltechnica.launcher.auth.Session;
+import net.royaltechnica.launcher.install.ZipExtract;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntime;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntimeFinder;
+import net.royaltechnica.launcher.model.minecraft.*;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.util.Environment;
+import net.royaltechnica.launcher.util.Platform;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
@@ -40,8 +40,8 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.CancellationException;
 import java.util.function.BiPredicate;
 
-import static com.skcraft.launcher.LauncherUtils.checkInterrupted;
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.LauncherUtils.checkInterrupted;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 /**
  * Handles the launching of an instance.

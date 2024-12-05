@@ -4,15 +4,15 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.loader;
+package net.royaltechnica.launcher.model.loader;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonIgnore;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.google.common.base.Splitter;
-import com.skcraft.launcher.model.minecraft.GameArgument;
-import com.skcraft.launcher.model.minecraft.Library;
-import com.skcraft.launcher.model.minecraft.MinecraftArguments;
-import com.skcraft.launcher.model.minecraft.VersionManifest;
+import net.royaltechnica.launcher.model.minecraft.GameArgument;
+import net.royaltechnica.launcher.model.minecraft.Library;
+import net.royaltechnica.launcher.model.minecraft.MinecraftArguments;
+import net.royaltechnica.launcher.model.minecraft.VersionManifest;
 import lombok.Data;
 
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.skcraft.launcher.install;
+package net.royaltechnica.launcher.install;
 
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.LauncherException;
-import com.skcraft.launcher.util.FileUtils;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.LauncherException;
+import net.royaltechnica.launcher.util.FileUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 

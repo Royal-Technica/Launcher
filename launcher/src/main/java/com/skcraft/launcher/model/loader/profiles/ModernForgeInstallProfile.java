@@ -4,15 +4,15 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.model.loader.profiles;
+package net.royaltechnica.launcher.model.loader.profiles;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.google.common.base.Function;
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.model.loader.InstallProcessor;
-import com.skcraft.launcher.model.loader.ProcessorEntry;
-import com.skcraft.launcher.model.loader.SidedData;
-import com.skcraft.launcher.model.minecraft.Library;
+import net.royaltechnica.launcher.model.loader.InstallProcessor;
+import net.royaltechnica.launcher.model.loader.ProcessorEntry;
+import net.royaltechnica.launcher.model.loader.SidedData;
+import net.royaltechnica.launcher.model.minecraft.Library;
 import lombok.Data;
 
 import java.util.List;

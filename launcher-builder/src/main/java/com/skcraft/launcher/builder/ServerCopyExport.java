@@ -4,11 +4,11 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
-import com.beust.jcommander.JCommander;
+import net.beust.jcommander.JCommander;
 import com.google.common.io.Files;
-import com.skcraft.launcher.util.SimpleLogFormatter;
+import net.royaltechnica.launcher.util.SimpleLogFormatter;
 import lombok.NonNull;
 import lombok.extern.java.Log;
 

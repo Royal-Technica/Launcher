@@ -4,17 +4,17 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.dialog;
+package net.royaltechnica.launcher.dialog;
 
-import com.skcraft.launcher.Configuration;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.dialog.component.BetterComboBox;
-import com.skcraft.launcher.launch.runtime.AddJavaRuntime;
-import com.skcraft.launcher.launch.runtime.JavaRuntime;
-import com.skcraft.launcher.launch.runtime.JavaRuntimeFinder;
-import com.skcraft.launcher.persistence.Persistence;
-import com.skcraft.launcher.swing.*;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.Configuration;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.dialog.component.BetterComboBox;
+import net.royaltechnica.launcher.launch.runtime.AddJavaRuntime;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntime;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntimeFinder;
+import net.royaltechnica.launcher.persistence.Persistence;
+import net.royaltechnica.launcher.swing.*;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.NonNull;
 
 import javax.swing.*;

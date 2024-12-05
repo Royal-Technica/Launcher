@@ -1,12 +1,12 @@
-package com.skcraft.launcher.model.minecraft;
+package net.royaltechnica.launcher.model.minecraft;
 
-import com.fasterxml.jackson.annotation.*;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.skcraft.launcher.model.minecraft.mapper.PlatformDeserializer;
-import com.skcraft.launcher.model.minecraft.mapper.PlatformSerializer;
-import com.skcraft.launcher.util.Environment;
-import com.skcraft.launcher.util.Platform;
+import net.fasterxml.jackson.annotation.*;
+import net.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import net.fasterxml.jackson.databind.annotation.JsonSerialize;
+import net.royaltechnica.launcher.model.minecraft.mapper.PlatformDeserializer;
+import net.royaltechnica.launcher.model.minecraft.mapper.PlatformSerializer;
+import net.royaltechnica.launcher.util.Environment;
+import net.royaltechnica.launcher.util.Platform;
 import lombok.Data;
 
 import java.util.Map;

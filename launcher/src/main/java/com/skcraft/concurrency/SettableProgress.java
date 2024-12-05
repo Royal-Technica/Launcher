@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.concurrency;
+package net.royaltechnica.concurrency;
 
 public class SettableProgress implements ProgressObservable {
 

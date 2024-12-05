@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.concurrency;
+package net.royaltechnica.concurrency;
 
 import com.google.common.base.Function;
 import com.google.common.util.concurrent.ListenableFuture;

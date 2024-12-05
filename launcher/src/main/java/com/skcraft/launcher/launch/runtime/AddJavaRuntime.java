@@ -1,4 +1,4 @@
-package com.skcraft.launcher.launch.runtime;
+package net.royaltechnica.launcher.launch.runtime;
 
 import java.io.File;
 

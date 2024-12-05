@@ -1,7 +1,7 @@
-package com.skcraft.launcher.builder.loaders;
+package net.royaltechnica.launcher.builder.loaders;
 
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.model.minecraft.Library;
+import net.royaltechnica.launcher.model.minecraft.Library;
 import lombok.Data;
 
 import java.net.URL;

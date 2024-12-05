@@ -1,8 +1,8 @@
-package com.skcraft.launcher.model.loader;
+package net.royaltechnica.launcher.model.loader;
 
-import com.skcraft.launcher.install.*;
-import com.skcraft.launcher.model.minecraft.Side;
-import com.skcraft.launcher.model.modpack.ManifestEntry;
+import net.royaltechnica.launcher.install.*;
+import net.royaltechnica.launcher.model.minecraft.Side;
+import net.royaltechnica.launcher.model.modpack.ManifestEntry;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

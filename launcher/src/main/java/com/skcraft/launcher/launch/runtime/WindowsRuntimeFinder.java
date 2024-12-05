@@ -1,9 +1,9 @@
-package com.skcraft.launcher.launch.runtime;
+package net.royaltechnica.launcher.launch.runtime;
 
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.util.Environment;
-import com.skcraft.launcher.util.WinRegistry;
-import com.sun.jna.platform.win32.WinReg;
+import net.royaltechnica.launcher.util.Environment;
+import net.royaltechnica.launcher.util.WinRegistry;
+import net.sun.jna.platform.win32.WinReg;
 import lombok.extern.java.Log;
 
 import java.io.File;

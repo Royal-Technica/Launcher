@@ -1,7 +1,7 @@
-package com.skcraft.launcher.builder.loaders;
+package net.royaltechnica.launcher.builder.loaders;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.skcraft.launcher.model.modpack.Manifest;
+import net.fasterxml.jackson.databind.ObjectMapper;
+import net.royaltechnica.launcher.model.modpack.Manifest;
 
 import java.io.File;
 import java.io.IOException;

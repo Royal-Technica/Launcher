@@ -4,12 +4,12 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.persistence;
+package net.royaltechnica.launcher.persistence;
 
-import com.fasterxml.jackson.core.PrettyPrinter;
-import com.fasterxml.jackson.core.util.DefaultIndenter;
-import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import net.fasterxml.jackson.core.PrettyPrinter;
+import net.fasterxml.jackson.core.util.DefaultIndenter;
+import net.fasterxml.jackson.core.util.DefaultPrettyPrinter;
+import net.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.io.ByteSink;
 import com.google.common.io.ByteSource;
 import com.google.common.io.Closer;

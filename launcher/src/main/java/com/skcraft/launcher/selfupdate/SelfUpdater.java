@@ -4,14 +4,14 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.selfupdate;
+package net.royaltechnica.launcher.selfupdate;
 
-import com.skcraft.concurrency.DefaultProgress;
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.install.FileMover;
-import com.skcraft.launcher.install.Installer;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.concurrency.DefaultProgress;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.install.FileMover;
+import net.royaltechnica.launcher.install.Installer;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.NonNull;
 
 import java.io.File;

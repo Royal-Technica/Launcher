@@ -1,4 +1,4 @@
-package com.skcraft.launcher.dialog.component;
+package net.royaltechnica.launcher.dialog.component;
 
 import com.google.common.collect.Lists;
 

@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.concurrency;
+package net.royaltechnica.concurrency;
 
 /**
  * Implementations of this interface can provide information on the progress

@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.bootstrap;
+package net.royaltechnica.launcher.bootstrap;
 
 /**
  * Implementations of this interface can provide information on the progress

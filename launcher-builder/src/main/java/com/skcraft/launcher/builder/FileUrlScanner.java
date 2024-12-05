@@ -1,8 +1,8 @@
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
 import com.google.common.io.Files;
-import com.skcraft.launcher.util.FileUtils;
-import com.skcraft.launcher.util.HttpRequest;
+import net.royaltechnica.launcher.util.FileUtils;
+import net.royaltechnica.launcher.util.HttpRequest;
 import lombok.extern.java.Log;
 
 import java.io.File;
@@ -13,7 +13,7 @@ public class FileUrlScanner extends DirectoryWalker {
 	public static final String URL_FILE_SUFFIX = ".url.txt";
 
 	public static boolean isEnabled() {
-		return !System.getProperty("com.skcraft.builder.ignoreURLOverrides", "false")
+		return !System.getProperty("net.royaltechnica.builder.ignoreURLOverrides", "false")
 				.equalsIgnoreCase("true");
 	}
 

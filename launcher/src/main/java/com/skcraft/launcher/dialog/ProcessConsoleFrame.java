@@ -4,11 +4,11 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.dialog;
+package net.royaltechnica.launcher.dialog;
 
-import com.skcraft.launcher.swing.LinedBoxPanel;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.swing.LinedBoxPanel;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,7 +18,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.PrintWriter;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 /**
  * A version of the console window that can manage a process.

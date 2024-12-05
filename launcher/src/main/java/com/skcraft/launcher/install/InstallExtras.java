@@ -1,6 +1,6 @@
-package com.skcraft.launcher.install;
+package net.royaltechnica.launcher.install;
 
-import com.skcraft.launcher.model.loader.LocalLoader;
+import net.royaltechnica.launcher.model.loader.LocalLoader;
 import lombok.Data;
 
 import java.io.File;

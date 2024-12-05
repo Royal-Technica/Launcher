@@ -1,12 +1,12 @@
-package com.skcraft.launcher.model.minecraft.mapper;
+package net.royaltechnica.launcher.model.minecraft.mapper;
 
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.JsonToken;
-import com.fasterxml.jackson.databind.DeserializationContext;
-import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
-import com.fasterxml.jackson.databind.exc.InvalidFormatException;
-import com.fasterxml.jackson.databind.type.TypeFactory;
+import net.fasterxml.jackson.core.JsonParser;
+import net.fasterxml.jackson.core.JsonProcessingException;
+import net.fasterxml.jackson.core.JsonToken;
+import net.fasterxml.jackson.databind.DeserializationContext;
+import net.fasterxml.jackson.databind.deser.std.StdDeserializer;
+import net.fasterxml.jackson.databind.exc.InvalidFormatException;
+import net.fasterxml.jackson.databind.type.TypeFactory;
 import com.google.common.collect.Lists;
 
 import java.io.IOException;

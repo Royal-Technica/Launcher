@@ -4,14 +4,14 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.dialog;
+package net.royaltechnica.launcher.dialog;
 
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.swing.LinedBoxPanel;
-import com.skcraft.launcher.swing.MessageLog;
-import com.skcraft.launcher.swing.SwingHelper;
-import com.skcraft.launcher.util.PastebinPoster;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.swing.LinedBoxPanel;
+import net.royaltechnica.launcher.swing.MessageLog;
+import net.royaltechnica.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.util.PastebinPoster;
+import net.royaltechnica.launcher.util.SharedLocale;
 import lombok.Getter;
 import lombok.NonNull;
 
@@ -22,7 +22,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 
 /**
  * A frame capable of showing messages.

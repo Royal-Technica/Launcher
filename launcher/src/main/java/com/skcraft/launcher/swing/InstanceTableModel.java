@@ -4,12 +4,12 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.swing;
+package net.royaltechnica.launcher.swing;
 
-import com.skcraft.launcher.Instance;
-import com.skcraft.launcher.InstanceList;
-import com.skcraft.launcher.Launcher;
-import com.skcraft.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.Instance;
+import net.royaltechnica.launcher.InstanceList;
+import net.royaltechnica.launcher.Launcher;
+import net.royaltechnica.launcher.util.SharedLocale;
 
 import javax.swing.*;
 import javax.swing.table.AbstractTableModel;

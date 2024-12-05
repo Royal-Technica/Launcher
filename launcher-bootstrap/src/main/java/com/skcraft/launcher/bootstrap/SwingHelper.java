@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.bootstrap;
+package net.royaltechnica.launcher.bootstrap;
 
 import lombok.NonNull;
 import lombok.extern.java.Log;
@@ -21,8 +21,8 @@ import java.io.StringWriter;
 import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import static com.skcraft.launcher.bootstrap.BootstrapUtils.closeQuietly;
-import static com.skcraft.launcher.bootstrap.SharedLocale.tr;
+import static net.royaltechnica.launcher.bootstrap.BootstrapUtils.closeQuietly;
+import static net.royaltechnica.launcher.bootstrap.SharedLocale.tr;
 
 /**
  * Swing utility methods.

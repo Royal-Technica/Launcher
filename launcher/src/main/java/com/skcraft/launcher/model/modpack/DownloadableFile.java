@@ -1,7 +1,7 @@
-package com.skcraft.launcher.model.modpack;
+package net.royaltechnica.launcher.model.modpack;
 
-import com.skcraft.launcher.install.Installer;
-import com.skcraft.launcher.model.minecraft.Side;
+import net.royaltechnica.launcher.install.Installer;
+import net.royaltechnica.launcher.model.minecraft.Side;
 import lombok.Data;
 import lombok.NonNull;
 
@@ -9,7 +9,7 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import static com.skcraft.launcher.LauncherUtils.concat;
+import static net.royaltechnica.launcher.LauncherUtils.concat;
 
 @Data
 public class DownloadableFile {

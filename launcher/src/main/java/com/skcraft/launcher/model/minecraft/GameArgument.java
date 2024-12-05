@@ -1,15 +1,15 @@
-package com.skcraft.launcher.model.minecraft;
+package net.royaltechnica.launcher.model.minecraft;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import net.fasterxml.jackson.annotation.JsonIgnore;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonProperty;
+import net.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import net.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.google.common.base.Joiner;
 import com.google.common.collect.Lists;
-import com.skcraft.launcher.model.minecraft.mapper.ArgumentValueDeserializer;
-import com.skcraft.launcher.model.minecraft.mapper.ArgumentValueSerializer;
-import com.skcraft.launcher.util.Environment;
+import net.royaltechnica.launcher.model.minecraft.mapper.ArgumentValueDeserializer;
+import net.royaltechnica.launcher.model.minecraft.mapper.ArgumentValueSerializer;
+import net.royaltechnica.launcher.util.Environment;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

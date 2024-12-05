@@ -1,4 +1,4 @@
-package com.skcraft.launcher.model.loader;
+package net.royaltechnica.launcher.model.loader;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

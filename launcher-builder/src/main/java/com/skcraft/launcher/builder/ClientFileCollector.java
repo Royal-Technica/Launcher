@@ -4,13 +4,13 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.builder;
+package net.royaltechnica.launcher.builder;
 
 import com.google.common.hash.HashFunction;
 import com.google.common.hash.Hashing;
 import com.google.common.io.Files;
-import com.skcraft.launcher.model.modpack.FileInstall;
-import com.skcraft.launcher.model.modpack.Manifest;
+import net.royaltechnica.launcher.model.modpack.FileInstall;
+import net.royaltechnica.launcher.model.modpack.Manifest;
 import lombok.NonNull;
 import lombok.extern.java.Log;
 import org.apache.commons.io.FilenameUtils;
@@ -20,7 +20,7 @@ import java.io.IOException;
 
 /**
  * Walks a path and adds hashed path versions to the given
- * {@link com.skcraft.launcher.model.modpack.Manifest}.
+ * {@link net.royaltechnica.launcher.model.modpack.Manifest}.
  */
 @Log
 public class ClientFileCollector extends DirectoryWalker {

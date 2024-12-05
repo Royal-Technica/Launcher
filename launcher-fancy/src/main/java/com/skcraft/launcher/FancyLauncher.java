@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
 import com.google.common.base.Supplier;
-import com.skcraft.launcher.swing.SwingHelper;
+import net.royaltechnica.launcher.swing.SwingHelper;
 import lombok.extern.java.Log;
 
 import javax.swing.*;
@@ -32,7 +32,7 @@ public class FancyLauncher {
                     System.setProperty("sun.awt.noerasebackground", "true");
                     System.setProperty("substancelaf.windowRoundedCorners", "false");
 
-                    if (!SwingHelper.setLookAndFeel("com.skcraft.launcher.skin.LauncherLookAndFeel")) {
+                    if (!SwingHelper.setLookAndFeel("net.royaltechnica.launcher.skin.LauncherLookAndFeel")) {
                         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
                     }
 

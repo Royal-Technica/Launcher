@@ -4,18 +4,18 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.swing;
+package net.royaltechnica.launcher.swing;
 
 import com.google.common.base.Joiner;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
-import com.skcraft.launcher.LauncherException;
-import com.skcraft.launcher.util.Environment;
-import com.skcraft.launcher.util.Platform;
-import com.skcraft.launcher.util.SharedLocale;
-import com.skcraft.launcher.util.SwingExecutor;
+import net.royaltechnica.launcher.LauncherException;
+import net.royaltechnica.launcher.util.Environment;
+import net.royaltechnica.launcher.util.Platform;
+import net.royaltechnica.launcher.util.SharedLocale;
+import net.royaltechnica.launcher.util.SwingExecutor;
 import lombok.NonNull;
 import lombok.extern.java.Log;
 
@@ -43,7 +43,7 @@ import java.util.concurrent.CancellationException;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.logging.Level;
 
-import static com.skcraft.launcher.util.SharedLocale.tr;
+import static net.royaltechnica.launcher.util.SharedLocale.tr;
 import static org.apache.commons.io.IOUtils.closeQuietly;
 
 /**
@@ -475,7 +475,7 @@ public final class SwingHelper {
 
     public static void setSwingProperties(String appName) {
         UIManager.getDefaults().put("SplitPane.border", BorderFactory.createEmptyBorder());
-        System.setProperty("com.apple.mrj.application.apple.menu.about.name", appName);
+        System.setProperty("net.apple.mrj.application.apple.menu.about.name", appName);
         System.setProperty("apple.laf.useScreenMenuBar", "true");
     }
 }

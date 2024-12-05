@@ -1,4 +1,4 @@
-package com.skcraft.launcher.model.minecraft;
+package net.royaltechnica.launcher.model.minecraft;
 
 public enum Side {
 	CLIENT("client"),

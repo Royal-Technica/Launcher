@@ -4,7 +4,7 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.install;
+package net.royaltechnica.launcher.install;
 
 import com.google.common.io.ByteSource;
 import com.google.common.io.Closer;

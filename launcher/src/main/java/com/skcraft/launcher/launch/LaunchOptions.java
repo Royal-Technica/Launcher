@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.launch;
+package net.royaltechnica.launcher.launch;
 
-import com.skcraft.launcher.Instance;
-import com.skcraft.launcher.auth.Session;
+import net.royaltechnica.launcher.Instance;
+import net.royaltechnica.launcher.auth.Session;
 import lombok.Data;
 import lombok.Getter;
 

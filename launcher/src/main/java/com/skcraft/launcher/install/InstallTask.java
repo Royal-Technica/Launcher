@@ -4,10 +4,10 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.install;
+package net.royaltechnica.launcher.install;
 
-import com.skcraft.concurrency.ProgressObservable;
-import com.skcraft.launcher.Launcher;
+import net.royaltechnica.concurrency.ProgressObservable;
+import net.royaltechnica.launcher.Launcher;
 
 public interface InstallTask extends ProgressObservable {
 

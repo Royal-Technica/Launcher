@@ -4,9 +4,9 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher.launch;
+package net.royaltechnica.launcher.launch;
 
-import com.skcraft.launcher.launch.runtime.JavaRuntime;
+import net.royaltechnica.launcher.launch.runtime.JavaRuntime;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

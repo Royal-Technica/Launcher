@@ -1,8 +1,8 @@
-package com.skcraft.launcher.model.loader;
+package net.royaltechnica.launcher.model.loader;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.skcraft.launcher.model.minecraft.Library;
+import net.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.fasterxml.jackson.annotation.JsonProperty;
+import net.royaltechnica.launcher.model.minecraft.Library;
 import lombok.Data;
 
 @Data

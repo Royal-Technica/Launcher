@@ -4,13 +4,13 @@
  * Please see LICENSE.txt for license information.
  */
 
-package com.skcraft.launcher;
+package net.royaltechnica.launcher;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import net.fasterxml.jackson.annotation.JsonIgnore;
+import net.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.io.Files;
-import com.skcraft.launcher.launch.JavaProcessBuilder;
-import com.skcraft.launcher.model.modpack.LaunchModifier;
+import net.royaltechnica.launcher.launch.JavaProcessBuilder;
+import net.royaltechnica.launcher.model.modpack.LaunchModifier;
 import lombok.Data;
 
 import java.io.File;

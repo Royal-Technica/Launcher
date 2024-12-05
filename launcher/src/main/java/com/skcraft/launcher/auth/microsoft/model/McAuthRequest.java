@@ -1,4 +1,4 @@
-package com.skcraft.launcher.auth.microsoft.model;
+package net.royaltechnica.launcher.auth.microsoft.model;
 
 import lombok.Data;
 
